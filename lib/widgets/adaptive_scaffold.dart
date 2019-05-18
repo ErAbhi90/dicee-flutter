@@ -11,6 +11,7 @@ class AdaptiveScaffold extends StatelessWidget {
       return CupertinoApp(
         home: CupertinoPageScaffold(
           child: DicePage(),
+          backgroundColor: Colors.red,
           navigationBar: CupertinoNavigationBar(
             backgroundColor: Colors.redAccent,
             heroTag: Text(
@@ -27,6 +28,7 @@ class AdaptiveScaffold extends StatelessWidget {
       return MaterialApp(
         home: Scaffold(
           body: DicePage(),
+          backgroundColor: Colors.red,
           appBar: AppBar(
             backgroundColor: Colors.redAccent,
             title: Text(
